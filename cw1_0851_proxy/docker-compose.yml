@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cw1_0851_proxy:
+    image: ${DOCKER_REGISTRY-}cw10851proxy
+    build:
+      context: .
+      dockerfile: Dockerfile
